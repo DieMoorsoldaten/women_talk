@@ -28,7 +28,7 @@ if (!empty($_POST)) {
     }
     
     if (isset($_POST['email'])) {
-        $phone = str_replace( $symbols , "" , $_POST['email']);
+        $email = str_replace( $symbols , "" , $_POST['email']);
     }
 
     if (isset($_POST['select'])) {
